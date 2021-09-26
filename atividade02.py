@@ -12,4 +12,8 @@ import matplotlib.pyplot as plt #Desenhar gráficos
 
 import plotly.express as px #Auxilio na plotagem de gráficos
 
-np.set_printoptions(threshold=np.inf) #Determina a forma como os flotas e outros objetos serão exibidos 
+np.set_printoptions(threshold=np.inf) #Biblioteca que Determina a forma como os flots e outros objetos serão exibidos 
+
+base_nursery = pd.read_csv("nursery.csv") #Lê o arquivo nursery.csv e armazena numa váriavel
+
+print(base_nursery) #imprime a váriavel
