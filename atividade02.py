@@ -16,4 +16,7 @@ np.set_printoptions(threshold=np.inf) #Biblioteca que Determina a forma como os 
 
 base_nursery = pd.read_csv("nursery.csv") #Lê o arquivo nursery.csv e armazena numa váriavel
 
-print(base_nursery) #imprime a váriavel
+print(base_nursery) #imprime a váriavel 
+
+from sklearn.preprocessing import OneHotEncoder # Bibliotecas respnsáveis por passar informações categoricas para números;
+from sklearn.compose import ColumnTransformer
